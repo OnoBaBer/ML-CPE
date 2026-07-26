@@ -1,4 +1,4 @@
-* ชุดข้อมูลที่ใช้ 
+* ชุดข้อมูลที่ใช้อ้างอิง
 Kaggle : https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
 
 วิธีการดำเนินงาน (Methodology)
