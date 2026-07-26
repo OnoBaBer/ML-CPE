@@ -2,8 +2,7 @@
 
 Kaggle : https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
 
-
-วิธีการดำเนินงาน (Methodology)
+    วิธีการดำเนินงาน (Methodology)
 
     1.โหลดชุดข้อมูล (Load Dataset)
         - เริ่มต้นด้วยการนำเข้าไลบรารีที่จำเป็น ได้แก่ Pandas,NumPy,Matplotlib,Seaborn และ Scikit-Learn 
