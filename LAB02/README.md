@@ -4,7 +4,6 @@ Kaggle : https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1
 
 
 วิธีการดำเนินงาน (Methodology)
-
     1.โหลดชุดข้อมูล (Load Dataset)
         - เริ่มต้นด้วยการนำเข้าไลบรารีที่จำเป็น ได้แก่ Pandas,NumPy,Matplotlib,Seaborn และ Scikit-Learn 
         - จากนั้นใช้คำสั่ง pd.read_csv() เพื่ออ่านไฟล์ results.csv (ผลการแข่งขัน) และ 
