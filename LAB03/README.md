@@ -1,18 +1,19 @@
 # Regression & Classification on HR Dataset
 
-* ชุดข้อมูลที่ใช้อ้างอิง
+* **ชุดข้อมูลที่ใช้อ้างอิง**
 
 ชุดข้อมูล HRDataset_v14 จากระบบข้อมูลทรัพยากรบุคคล (Human Resources) 
-Kaggle : https://www.kaggle.com/datasets/rhuebner/human-resources-data-set
 
-* วัตถุประสงค์
+**Kaggle** : https://www.kaggle.com/datasets/rhuebner/human-resources-data-set
+
+* **วัตถุประสงค์**
 1. ศึกษาหลักการทำงานของ Regression และ Classification 
 2. ประยุกต์ใช้ Linear Regression ทำนายอายุ (Age) ของพนักงาน โดยแปลงจากวันเกิด (DOB) 
 3. ประยุกต์ใช้ Logistic Regression เพื่อจำแนกเพศ (GenderID) ของพนักงาน 
 4. ฝึกการเตรียมข้อมูล (Feature Scaling) และประยุกต์ใช้เทคนิค Principal Component Analysis (PCA) เพื่อลดจำนวนมิติข้อมูล
 5. ประเมินประสิทธิภาพเปรียบเทียบโมเดลด้วยตัวชี้วัด (MAE, RMSE, R², Accuracy, Confusion Matrix, ROC Curve)
 
-* ขั้นตอนการทำงาน
+* **ขั้นตอนการทำงาน**
 
 **1. Data Preparation & EDA**
     - นำเข้าไลบรารี `pandas`,`numpy`,`matplotlib`,`seaborn` และ `scikit-learn`
