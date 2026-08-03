@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-def load_and_preprocess_for_clustering(filepath='adult.csv'):    
+def load_and_preprocess_for_clustering(filepath='../data-adult-income/adult.csv'): 
     print("[1/5] Loading and preprocessing data for Clustering")
     df = pd.read_csv(filepath)
     df = df.map(lambda x: x.strip() if isinstance(x, str) else x)

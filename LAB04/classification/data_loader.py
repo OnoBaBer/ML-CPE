@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-def load_and_preprocess_data(filepath='adult.csv'):
+def load_and_preprocess_for_clustering(filepath='../data-adult-income/adult.csv'):
     print('[1/4] Loading and preprocessing data for Classification')
     df = pd.read_csv(filepath)
     df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
