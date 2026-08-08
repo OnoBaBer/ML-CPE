@@ -1,6 +1,7 @@
 # 📝 LAB04: Machine Learning - KNN & Clustering
 
 [1] โครงสร้างโฟลเดอร์ของโปรเจกต์ (Project Structure)
+
 LAB04/
 ├── data-adult-income/
 │   └── adult.csv                      # ชุดข้อมูลต้นฉบับ (Adult Dataset)
