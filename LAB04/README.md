@@ -31,13 +31,13 @@
     ├── requirements.txt                   # รายชื่อ Python Libraries ที่จำเป็น
     └── link-data.txt                      # ลิงก์และรายละเอียดแหล่งที่มาของข้อมูล
 
-**[2] การติดตั้งไลบรารีที่จำเป็น (Installation)**
+[2] การติดตั้งไลบรารีที่จำเป็น (Installation)
     เปิด Terminal/PowerShell ที่หน้า Root Directory ของโปรเจกต์ แล้วใช้คำสั่ง:
 
     pip install -r requirements.txt
 
-    **วิธีการรันโปรแกรม (How to Run)**
-        **--- การรันส่วนที่ 1: Classification ---**
+    วิธีการรันโปรแกรม (How to Run)
+        --- การรันส่วนที่ 1: Classification ---
 
         เปลี่ยนตำแหน่งโฟลเดอร์ไปยังโฟลเดอร์ classification:
 
@@ -49,7 +49,7 @@
 
         ผลลัพธ์ทั้งหมดจะถูกสร้างขึ้นอัตโนมัติในโฟลเดอร์ classification/outputs/
 
-    **--- การรันส่วนที่ 2: Clustering ---**
+    --- การรันส่วนที่ 2: Clustering ---
 
         สลับโฟลเดอร์ไปยัง clustering:
 
