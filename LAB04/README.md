@@ -1,9 +1,8 @@
-========================================================================
-             LAB04: Machine Learning - KNN & Clustering
-========================================================================
+# 📝 LAB04: Machine Learning - KNN & Clustering
 
-[1] โครงสร้างโฟลเดอร์ของโปรเจกต์ (Project Structure)
-------------------------------------------------------------------------
+## [1] โครงสร้างโฟลเดอร์ของโปรเจกต์ (Project Structure)
+
+```text
 LAB04/
 ├── data-adult-income/
 │   └── adult.csv                      # ชุดข้อมูลต้นฉบับ (Adult Dataset)
@@ -33,38 +32,32 @@ LAB04/
 ├── requirements.txt                   # รายชื่อ Python Libraries ที่จำเป็น
 └── link-data.txt                      # ลิงก์และรายละเอียดแหล่งที่มาของข้อมูล
 
-
 [2] การติดตั้งไลบรารีที่จำเป็น (Installation)
-------------------------------------------------------------------------
 เปิด Terminal/PowerShell ที่หน้า Root Directory ของโปรเจกต์ แล้วใช้คำสั่ง:
 
-    pip install -r requirements.txt
+pip install -r requirements.txt
 
-
-[3] วิธีการรันโปรแกรม (How to Run)
-------------------------------------------------------------------------
-
+วิธีการรันโปรแกรม (How to Run)
 --- การรันส่วนที่ 1: Classification ---
-1. เปลี่ยนตำแหน่งโฟลเดอร์ไปยังโฟลเดอร์ classification:
-   
-    cd classification
 
-2. สั่งรันไฟล์ main.py:
-   
-    python main.py
+เปลี่ยนตำแหน่งโฟลเดอร์ไปยังโฟลเดอร์ classification:
 
-3. ผลลัพธ์ทั้งหมดจะถูกสร้างขึ้นอัตโนมัติในโฟลเดอร์ classification/outputs/
+cd classification
 
+สั่งรันไฟล์ main.py:
+
+python main.py
+
+ผลลัพธ์ทั้งหมดจะถูกสร้างขึ้นอัตโนมัติในโฟลเดอร์ classification/outputs/
 
 --- การรันส่วนที่ 2: Clustering ---
-1. สลับโฟลเดอร์ไปยัง clustering:
-   
-    cd ../clustering
 
-2. สั่งรันไฟล์ main.py:
+สลับโฟลเดอร์ไปยัง clustering:
 
-    python main.py
+cd ../clustering
 
-3. ผลลัพธ์ทั้งหมดจะถูกสร้างขึ้นอัตโนมัติในโฟลเดอร์ clustering/outputs/
+สั่งรันไฟล์ main.py:
 
-========================================================================
+python main.py
+
+ผลลัพธ์ทั้งหมดจะถูกสร้างขึ้นอัตโนมัติในโฟลเดอร์ clustering/outputs/
